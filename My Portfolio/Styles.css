@@ -1,0 +1,85 @@
+body {
+  font-family: "Cairo";
+  font-size: 22px;
+  text-align: center;
+  background-color: #98c1d9;
+  margin: 0px;
+}
+.My-Name {
+  color: #000;
+  font-size: 60px;
+  text-shadow: 2px 2px 2px #ee6c4d;
+  margin-bottom: 0;
+}
+
+.hr-1 {
+  border: 7.5px solid #e0fbfc;
+  border-radius: 12px;
+}
+
+div {
+  margin: auto;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+.content {
+  min-height: 100%;
+}
+.content-inside {
+  padding: 20px;
+  padding-bottom: 50px;
+}
+.footer {
+  height: 50px;
+  margin-top: -50px;
+}
+
+footer {
+  background: #293241;
+  color: white;
+  line-height: 50px;
+  padding: 0 20px;
+}
+
+.wrapper {
+}
+
+.image-area {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.single-image {
+  padding: 0 20px 20px;
+  opacity: 0.6;
+  transition: 0.7s;
+}
+.single-image:hover {
+  opacity: 1;
+  transition: 0.7s;
+}
+.text {
+  background-color: #ee6c4d;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.text-2 {
+  font-size: 60px;
+}
+
+.me {
+  margin-bottom: 50px;
+}
+.about {
+  color: #293241;
+  font-size: 20px;
+}
